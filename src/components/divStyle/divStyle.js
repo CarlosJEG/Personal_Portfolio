@@ -11,12 +11,6 @@ const DivStyle = () => {
           <p>Develop</p>
           <ChevronRightIcon className={styles.divIcon}/>
           <p>Discover</p>
-          <ChevronRightIcon className={styles.divIcon}/>
-          <p>Design</p>
-          <ChevronRightIcon className={styles.divIcon}/>
-          <p>Develop</p>
-          <ChevronRightIcon className={styles.divIcon}/>
-          <p>Discover</p>
         </div>
     </>
   )
