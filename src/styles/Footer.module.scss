@@ -1,0 +1,19 @@
+.Footer {
+    background-color: var(--white-primary);
+    display: flex;
+    justify-content: center;
+
+    .FooterContainer {
+        width: 85%;
+        height: 120px;
+        border-top: 1px gray solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            display: flex;
+            gap: 1.5rem;
+        }
+    }
+}

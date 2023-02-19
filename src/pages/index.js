@@ -1,15 +1,17 @@
-import DivStyle from "@/components/divStyle/divStyle"
-import MainSection from "@/components/pagesSections/mainSection"
-import ProjectsSection from "@/components/pagesSections/projectsSection"
-import WhatIdo from "@/components/pagesSections/whatIdo"
+import Bar from "@/components/Bar/Bar"
+import Contact from "@/components/ContactSection/Contact"
+import Main from "@/components/MainSection/Main"
+import Projects from "@/components/ProjectsSection/Projects"
+import WhatIdo from "@/components/WhatIdoSection/WhatIdo"
 
 const Home = () => {
   return (
     <>
-      <MainSection/>
-      <DivStyle/>
-      <ProjectsSection/>
+      <Main/>
+      <Bar/>
+      <Projects/>
       <WhatIdo/>
+      <Contact/>
     </>
   )
 }

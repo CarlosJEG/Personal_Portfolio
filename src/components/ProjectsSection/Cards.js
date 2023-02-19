@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import styles from '@/styles/projects.module.scss'
+import styles from '@/styles/Projects.module.scss'
 import landingPage from '../../../public/landingPage.png'
 
-const Projects = () => {
+const Cards = () => {
   return (
     <div className={styles.projectsCards}>
         <div className={styles.projectsCardsImg}>
@@ -16,4 +16,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Cards

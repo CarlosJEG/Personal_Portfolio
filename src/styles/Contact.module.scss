@@ -1,0 +1,95 @@
+.Contact {
+    background-color: var(--white-primary);
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+
+    .ContactContainer {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-between;
+
+        @media screen and (max-width: 784px) {
+            justify-content: center;
+        }
+
+        .ContactInfo {
+            width: 45%;
+            min-width: 297px;
+            display: flex;
+            flex-direction: column; 
+            gap: 1.5rem;
+
+            @media screen and (max-width: 784px) {
+                width: 85%;
+            }
+
+            h3 {
+                background: var(--gradient);
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: bold;
+                font-size: 38px;
+                letter-spacing: 2px;
+                margin-left: 40px;
+
+                @media screen and (max-width: 784px) {
+                    margin: 0;
+                }
+            }
+
+            p {
+                margin-left: 40px;
+                font-weight: bold;
+
+                @media screen and (max-width: 784px) {
+                    margin: 0;
+                }
+            }
+        }
+
+        .Contactform {
+            width: 45%;
+            min-width: 297px;
+            display: flex;
+            flex-direction: column; 
+
+            @media screen and (max-width: 784px) {
+                width: 85%;
+            }
+
+            input {
+                margin-bottom: 20px;
+                border-radius: 5px;
+                border: none;
+                padding: 12px 15px;
+            }
+
+            label {
+                font-weight: bold;
+                margin-bottom: 5px;
+                letter-spacing: 1px;
+            }
+
+            textarea {
+                border-radius: 5px;
+                border: none;
+                margin-bottom: 20px;
+            }
+
+            button {
+                width: 200px;
+                background: var(--gradient);
+                color: var(--white-secondary);
+                font-weight: bold;
+                text-transform: uppercase;
+                padding: 1rem;
+                border-radius: 1.4rem;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

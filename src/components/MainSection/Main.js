@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import perfil from '../../../public/profile.jpg'
-import styles from '@/styles/main.module.scss'
+import styles from '@/styles/Main.module.scss'
 
-const MainSection = () => {
+const Main = () => {
   return (
     <main className={styles.main}>
         <div className={styles.mainContainer}>
@@ -24,4 +24,4 @@ const MainSection = () => {
   )
 }
 
-export default MainSection
+export default Main

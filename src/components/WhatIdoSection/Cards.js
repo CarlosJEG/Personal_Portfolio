@@ -1,7 +1,7 @@
 import styles from '@/styles/whatIdo.module.scss'
 import Image from "next/image"
 
-const LogoTegnologies = ({ logo, name }) => {
+const Cards = ({ logo, name }) => {
   return (
     <div className={styles.whatIdoCards}>
       <Image src={logo} alt={name}/>
@@ -10,4 +10,4 @@ const LogoTegnologies = ({ logo, name }) => {
   )
 }
 
-export default LogoTegnologies
+export default Cards
