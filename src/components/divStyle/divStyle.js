@@ -3,11 +3,20 @@ import styles from '@/styles/div.module.scss'
 
 const DivStyle = () => {
 
-    const div = ["Design", "Develop", "Discover", "Design", "Develop", "Discover", "Design", "Develop", "Discover"]
-
   return (
     <>
         <div className={styles.divStyle}>
+          <p>Design</p>
+          <ChevronRightIcon className={styles.divIcon}/>
+          <p>Develop</p>
+          <ChevronRightIcon className={styles.divIcon}/>
+          <p>Discover</p>
+          <ChevronRightIcon className={styles.divIcon}/>
+          <p>Design</p>
+          <ChevronRightIcon className={styles.divIcon}/>
+          <p>Develop</p>
+          <ChevronRightIcon className={styles.divIcon}/>
+          <p>Discover</p>
         </div>
     </>
   )

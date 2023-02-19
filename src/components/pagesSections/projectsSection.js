@@ -11,8 +11,6 @@ const ProjectsSection = () => {
                 <Projects/>
                 <Projects/>
                 <Projects/>
-                <Projects/>
-                <Projects/>
             </div>
         </div>
     </section>
