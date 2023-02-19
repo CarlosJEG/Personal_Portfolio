@@ -3,7 +3,7 @@ import styles from '@/styles/div.module.scss'
 
 const DivStyle = () => {
 
-    const div = ["Design", "Develop", "Discover", "Design", "Develop", "Discover", "Design", "Develop", "Discover", "Design", "Develop", "Discover"]
+    const div = ["Design", "Develop", "Discover"]
 
   return (
     <>
