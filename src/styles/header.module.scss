@@ -3,7 +3,6 @@
     height: 80px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 
     .headerContainer {
         width: 85%;
@@ -13,6 +12,10 @@
 
         .headerNavbar {
             flex: 1 1 auto;
+
+            @media screen and (max-width: 720px) {
+                display: none;
+            }
 
             ul {
                 display: flex;
