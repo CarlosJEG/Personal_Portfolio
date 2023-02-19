@@ -10,6 +10,7 @@
         font-size: 28px;
         text-align: center;
         letter-spacing: 2px;
+        margin-bottom: 30px;
     }
     
     .whatIdoContainer {
@@ -25,8 +26,14 @@
 
         .whatIdoCards {
             width: 130px;
-            box-shadow: 3px 3px 7px -3px rgba(138,138,138,1);
+            box-shadow: 0px 0px 7px -3px rgba(138,138,138,1);
             border-radius: 12px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                transform:scale(1.05);
+                transition: all 0.3s ease;
+            }
 
             img{
                 padding: 12px;
