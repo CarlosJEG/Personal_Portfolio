@@ -8,12 +8,6 @@ const DivStyle = () => {
   return (
     <>
         <div className={styles.divStyle}>
-            {div.map((div, i) => (
-              <>
-                <p key={i}>{div}</p>
-                <ChevronRightIcon key={i} className={styles.divIcon}/>
-              </>
-            ))}
         </div>
     </>
   )
