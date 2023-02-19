@@ -1,0 +1,56 @@
+.main {
+    background-color: var(--white-primary);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0rem;
+
+    .mainContainer {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .mainPhoto {
+        width: 200px;
+        height: 200px;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    .mainGreeting {
+        text-align: center;
+    }
+
+    .mainIntroduction {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .mainBtn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+
+        button {
+            padding: 1rem;
+            border-radius: 1.4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 1px var(--black-secondary) solid;
+            background-color: var(--white-primary);
+            cursor: pointer;
+        }
+
+        .mainBtn {
+            background-color: var(--black-secondary);
+            color: var(--white-secondary);
+        }
+    }
+
+}

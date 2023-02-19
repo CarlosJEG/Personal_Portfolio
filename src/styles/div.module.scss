@@ -1,0 +1,29 @@
+.divStyle {
+    background: var(--gradient);
+    -webkit-text-fill-color: transparent;
+    height: 50px;
+}
+
+.divStyleTwo {
+    width: 110%;
+    background-color: black;
+    height: 50px;
+    z-index: 1;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    transform: rotate(-3deg);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    p {
+        color: var(--white-secondary);
+        font-weight: bold;
+    }
+}
+
+.divIcon {
+    font-size: 35px;
+    color: var(--white-secondary);
+}
