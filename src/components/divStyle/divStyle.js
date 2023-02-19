@@ -7,8 +7,7 @@ const DivStyle = () => {
 
   return (
     <>
-        <div className={styles.divStyle}/>
-        <div className={styles.divStyleTwo}>
+        <div className={styles.divStyle}>
             {div.map((div, i) => (
               <>
                 <p key={i}>{div}</p>
