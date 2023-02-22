@@ -16,11 +16,46 @@
             @media screen and (max-width: 720px) {
                 display: none;
             }
+        }
 
-            ul {
-                display: flex;
-                justify-content: flex-end;
-                gap: 1.8rem;
+        .headerNavbarMenu {
+
+            @media screen and (max-width: 720px) {
+                background-color: var(--white-primary);
+                padding-bottom: 10px;
+                width: 85%;
+                position: absolute;
+                top: 80px;
+
+                ul {
+                    flex-direction: column;
+                    gap: 12px;
+
+                    li {
+                        text-align: center;
+                        padding: 1rem 0px;
+                        border: 1px gray solid;
+                        border-radius: 12px;
+
+                        a {
+                            padding: 1rem 30%; 
+                        }
+                    }
+                }
+            }
+
+            @media screen and (min-width: 720px) {
+                display: none;
+            }
+        } 
+
+        .headerMenu {
+            display: none;
+            font-size: 35px;
+            cursor: pointer;
+
+            @media screen and (max-width: 720px) {
+                display: inline-block;
             }
         }
     }

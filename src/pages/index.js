@@ -5,6 +5,7 @@ import Projects from "@/components/ProjectsSection/Projects"
 import WhatIdo from "@/components/WhatIdoSection/WhatIdo"
 
 const Home = () => {
+  
   return (
     <>
       <Main/>

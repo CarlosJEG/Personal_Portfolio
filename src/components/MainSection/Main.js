@@ -10,7 +10,7 @@ const Main = () => {
                 <Image src={perfil} alt='perfil'/>
             </div>
             <div className={styles.mainGreeting}>
-                <h2>Hola, Soy Carlos JEG, <br/> Desarrollador Web Front-End</h2>
+                <h2>Hola, Soy Carlos JEG <br/> Desarrollador <span>Web Front-End</span></h2>
             </div>
             <div className={styles.mainIntroduction}>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing <br/> elit. Sed labore corruptia</p>

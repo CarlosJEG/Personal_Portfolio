@@ -1,7 +1,14 @@
-import Link from 'next/link'
 import styles from '@/styles/Header.module.scss'
+import ListIcon from '@mui/icons-material/List';
+import Navbar from './Navbar';
+import { useState } from 'react';
+import Link from 'next/link'
+
 
 const Header = () => {
+
+    const [ openMenu, setOpenMenu ] = useState(false)
+
   return (
     <header className={styles.header}>
         <div className={styles.headerContainer}>
@@ -10,22 +17,9 @@ const Header = () => {
                     <h1>CFOLIO.</h1>
                 </Link>
             </div>
-            <nav className={styles.headerNavbar}>
-                <ul>
-                    <li>
-                        <Link href="./">Inicio</Link>
-                    </li>
-                    <li>
-                        <Link href="#projects">Proyectos</Link>
-                    </li>
-                    <li>
-                        <Link href="./">Mi stack</Link>
-                    </li>
-                    <li>
-                        <Link href="./">Contactame</Link>
-                    </li>
-                </ul>
-            </nav>
+            <Navbar style={styles.headerNavbar}/>
+            {openMenu ? <Navbar style={styles.headerNavbarMenu}/> : null}
+            <ListIcon className={styles.headerMenu} onClick={() => setOpenMenu(!openMenu)}/>
         </div>
     </header>
   )

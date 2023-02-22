@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className={styles.projects}>
         <div className={styles.projectsContainer}>
-            <h3 id='projects'>Mis Proyectos Realizados</h3>
+            <h3 id='projects'>Mis Proyectos <span>Realizados</span></h3>
             <div className={styles.projectsCardsContainer}>
                 <Cards/>
                 <Cards/>

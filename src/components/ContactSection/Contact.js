@@ -6,12 +6,12 @@ const Contact = () => {
         <div className={styles.ContactContainer}>
             <div className={styles.ContactInfo}>
                 <h3>Contactame</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Doloribus, pariatur eius maxime voluptatem</p>
+                <p className={styles.fontLight}>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> Doloribus, pariatur eius maxime voluptatem</p>
                 <div className={styles.ContactEmail}>
-                    <p>Carlos.jeg98@gmail.com</p>
+                    <p className={styles.fontBold}>Carlos.jeg98@gmail.com</p>
                 </div>
                 <div className={styles.ContactNro}>
-                    <p>+56920432378</p>
+                    <p className={styles.fontBold}>+56920432378</p>
                 </div>
             </div>
             <div className={styles.Contactform}>

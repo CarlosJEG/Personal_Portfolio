@@ -40,9 +40,18 @@
                 }
             }
 
-            p {
+            .fontLight {
+                font-weight: light;
                 margin-left: 40px;
+
+                @media screen and (max-width: 784px) {
+                    margin: 0;
+                }
+            }
+
+            .fontBold {
                 font-weight: bold;
+                margin-left: 40px;
 
                 @media screen and (max-width: 784px) {
                     margin: 0;
